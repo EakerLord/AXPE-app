@@ -31,6 +31,7 @@ s
       user.password === this.loginForm.value.password);
 
     if (this.currentUser){
+      localStorage.setItem('currentUser', JSON.stringify(this.currentUser));
       this.router.navigate(['/starship']);
     } else {
       alert('L`usuari o la contrasenya no són correctes.');
