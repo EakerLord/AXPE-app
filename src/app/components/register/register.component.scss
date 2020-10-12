@@ -1,0 +1,19 @@
+.main-container, .form-group{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.main-container{
+  text-align: center;
+  align-items: center;
+}
+.form-control, .form-actions{
+  margin: 5px 0;
+}
+.help-block{}
+.form-actions{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
